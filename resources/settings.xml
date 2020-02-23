@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!--
+#
+#
+#    Copyright (C) 2020  Alin Cretu
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+#
+-->
+
+<settings>
+  <category label="DigiOnline.ro">
+    <setting label="Authentication" type="lsep"/>
+    <setting label="Authentication User" id="AccountUser" type="text" default="__DEFAULT_USER__"/>
+    <setting label="Authentication Password" id="AccountPassword" type="text" default="__DEFAULT_PASSWORD__" option="hidden" />
+  </category>
+  <category label="General Settings">
+    <setting label="Display" type="lsep"/>
+    <setting label="Show program title in channel list" id="ShowTitleInChannelList" type="bool" default="false" />
+    <setting type="sep"/>
+  </category>
+  <category label="Debug Options">
+    <setting label="Enable debug" id="DebugEnabled" type="bool" default="false" />
+    <setting type="sep"/>
+  </category>
+</settings>
+
